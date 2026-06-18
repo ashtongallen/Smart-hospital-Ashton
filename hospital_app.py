@@ -65,10 +65,14 @@ temperature_level =st.selectbox(
   list(temp_map.keys())
 )
 
+heart_rate_level = st.selectbox(
+"Heart Rate",
+  list(hr_map.keys())
+)
 
-
-
-
+hypertension = st.checkbox("High Blood Pressure")
+heart_disease = st.checkbox("Heart Disease")
+asthma = st.checkbox("Asthma")
 
 
 
