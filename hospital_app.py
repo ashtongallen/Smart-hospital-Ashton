@@ -22,4 +22,11 @@ hr_map = bundle['hr_map']
 dur_map = bundle['dur_map']
 cc_map = bundle['cc_map']
 
+st.header("Patient Informartion")
 
+age = st.number_input(
+  "Age",
+min_value=1,
+  max_value=130,
+  value=35
+)
