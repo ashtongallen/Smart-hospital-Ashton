@@ -30,3 +30,9 @@ min_value=1,
   max_value=130,
   value=35
 )
+
+gender = st.selectbox(
+  "Gender",
+  ["Female","Male"]
+)
+
