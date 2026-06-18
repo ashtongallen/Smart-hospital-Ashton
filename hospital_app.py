@@ -55,9 +55,15 @@ chief_complain = st.selectbox(
   list(cc_map.keys())
 )
 
+duration = st.selectbox(
+  "Duration",
+  list(dur_map.keys())
+)
 
-
-
+temperature_level =st.selectbox(
+"Temperature",
+  list(temp_map.keys())
+)
 
 
 
