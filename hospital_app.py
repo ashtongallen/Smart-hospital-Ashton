@@ -104,7 +104,7 @@ if st.button("Predict Department"):
   'heart_disease': int(heart_disease),
 
   'chief_complain':
-  cc_map.get(chief_complaint, 9)
+      cc_map.get(chief_complaint, 9)
 
   }])
 
